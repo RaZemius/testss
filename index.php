@@ -1,3 +1,4 @@
+ffffff
 <?php
 require 'application/lib/Autoloader.php';
 use application\lib\Debug;
