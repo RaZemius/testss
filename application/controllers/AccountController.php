@@ -9,7 +9,8 @@ class AccountController extends Controller
 {
     function indexAction(){
 
-        $this->view->render("Ghjabkm");
+        $data = $this->model->getuser_prof(1);
+        $this->view->render("page of ".$data[1]);
     }
     function loginAction(){
         $this->view->render('Вход');

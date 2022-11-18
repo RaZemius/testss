@@ -9,7 +9,7 @@ class MainController extends Controller
 {
     function indexAction()
     {
-        $news = $this->model->getNews();
-        $this->view->render("Главная", ["news" => $news]);
+        //$news = $this->model->getNews();
+        $this->view->render("Главная");//, ["news" => $news]);
     }
 }
