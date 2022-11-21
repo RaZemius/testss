@@ -15,4 +15,7 @@ class Account extends Model
     {
         return $this->db->row('SELECT * from user where id = '.$id.'');
     }
+    public function register(){}
+    public function eddit(){}
+    
 }
